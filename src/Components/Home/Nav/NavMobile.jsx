@@ -12,7 +12,7 @@ export default function NavMobile() {
                 navigate('/');
             }} class="fa-solid fa-house"></i>
             <i onClick={function () {
-                navigate('/#contact');
+                navigate('/contact');
             }} class="fa-solid fa-phone-volume"></i>
             {/* <i onClick={async function(){
                 await auth.signOut();
