@@ -211,7 +211,7 @@ let NavLater = () => {
           onClick={() => setOpen(!open)} /> */}
         <div className="logotop">
           <p>
-            <Link to={"/"}><img src="/logo.png" href="logo"
+            <Link to={"/"}><img src="/AGOI/logo.png" href="logo"
             /></Link>
             {/* {state.usernotifications.user_id} */}
             {/* &#8377; {state.wallet_balance} */}
@@ -360,8 +360,8 @@ let NavLater = () => {
 
           {!state ? (
             <>
-              <a href="/" style={path === '/' ? { color: '#396DFB' } : { color: 'black' }}>Home</a>
-              <a href="/contact" style={path === '/contact' ? { color: '#396DFB' } : { color: 'black' }}>Contact</a>
+              <a href="/AGOI/" style={path === '/' ? { color: '#396DFB' } : { color: 'black' }}>Home</a>
+              <a href="/AGOI/#contact" style={path === '/contact' ? { color: '#396DFB' } : { color: 'black' }}>Contact</a>
               <button onClick={() => navigate("/login")}>Login</button>
 
             </>
@@ -369,16 +369,16 @@ let NavLater = () => {
           ) : (
             <>
               <a href="/" style={path === '/' ? { color: '#396DFB' } : { color: 'black' }}>Home</a>
-              <a href="/contact" style={path === '/contact' ? { color: '#396DFB' } : { color: 'black' }}>Contact</a>
-              <a href="/stocks" style={path === '/stocks' ? { color: '#396DFB' } : { color: 'black' }}>Discover</a>
-              <a href="/investment" style={path === '/investment' ? { color: '#396DFB' } : { color: 'black' }}>Investment</a>
+              <a href="/AGOI/#contact" style={path === '/contact' ? { color: '#396DFB' } : { color: 'black' }}>Contact</a>
+              <a href="/AGOI/#stocks" style={path === '/stocks' ? { color: '#396DFB' } : { color: 'black' }}>Discover</a>
+              <a href="/AGOI/#investment" style={path === '/investment' ? { color: '#396DFB' } : { color: 'black' }}>Investment</a>
 
               <div className="loginbuttons">
 
-                <button className="nav2button" onClick={function () { navigate('/wallet') }}><img src="/wallet.svg" /></button>
-                <button className="nav2button"><img src="/notification.svg" /></button>
-                <button className="nav2button"><img src="/usericon.svg" /></button>
-                <button className="nav2button" onClick={signoutHandler}><img src="/exit.svg" /></button>
+                <button className="nav2button" onClick={function () { navigate('/wallet') }}><img src="/AGOI/wallet.svg" /></button>
+                <button className="nav2button"><img src="/AGOI/notification.svg" /></button>
+                <button className="nav2button"><img src="/AGOI/usericon.svg" /></button>
+                <button className="nav2button" onClick={signoutHandler}><img src="/AGOI/exit.svg" /></button>
               </div>
 
 
