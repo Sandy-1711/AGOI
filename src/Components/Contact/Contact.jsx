@@ -1,8 +1,6 @@
 import '../../styles/Contact/Contact.css'
 import '../../styles/Contact/Contact800.css'
 import Footer from '../Footer/Footer'
-import Nav from '../Home/Nav/Nav'
-import NavMobile from '../Home/Nav/NavMobile'
 export default function Contact() {
     return <div>
             {/* <Nav /> */}

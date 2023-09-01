@@ -83,7 +83,7 @@ const Investement = () => {
   };
   //  console.log(orders.length);
   useEffect(() => {
-    fetchPayemnts();
+    // fetchPayemnts();
   }, [state]);
   return (
     <>

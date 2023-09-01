@@ -82,8 +82,8 @@ let VerifyOtp = (props) => {
     <>
       <div className="verify-otp">
         {window.innerWidth <= 800 && <h1>Verification</h1>}
-        {window.innerWidth <= 800 && <img className="back" src="/ep_back.svg" alt="back" />}
-        <img className="phone-img" src="/otp.svg"></img>
+        {window.innerWidth <= 800 && <img className="back" src="/AGOI/ep_back.svg" alt="back" />}
+        <img className="phone-img" src="/AGOI/otp.svg"></img>
         <h1>Check your phone</h1>
         <p className="send-otp-txt">
           Please enter your OTP below

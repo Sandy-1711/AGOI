@@ -168,7 +168,6 @@ let CompleteKYC = () => {
     // ) :
     (
       <>
-        {window.innerWidth > 800 && <Nav />}
 
         <div className="kyccontainer">
 
@@ -315,7 +314,6 @@ let CompleteKYC = () => {
             <button>Proceed</button>
           </div>
         </div>
-        {window.innerWidth <= 800 && <NavMobile />}
 
       </>))
 };

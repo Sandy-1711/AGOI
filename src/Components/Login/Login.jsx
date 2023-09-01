@@ -75,7 +75,7 @@ let Login = () => {
 
         <div id="sign-in-button"></div>
         {window.innerWidth <= 800 && <div>
-          <img src="/login-drawable.svg" />
+          <img src="/AGOI/login-drawable.svg" />
         </div>}
         <div className="loginContainerTop">
           <h1>Welcome to <span>Agoi Financial Services</span></h1>
@@ -85,19 +85,19 @@ let Login = () => {
         <div className="loginContainerBottom">
           {window.innerWidth > 800 && <div className="loginleft">
             <div >
-              <img src="/signup.png" alt="signup" />
+              <img src="/AGOI/signup.png" alt="signup" />
               <p>Singup</p>
             </div>
             <div>
-              <img src="/completekyc.png" alt="completeKYC" />
+              <img src="/AGOI/completekyc.png" alt="completeKYC" />
               <p>Complete KYC</p>
             </div>
             <div>
-              <img src="/invest.png" alt="invest" />
+              <img src="/AGOI/invest.png" alt="invest" />
               <p>Invest</p>
             </div>
             <div>
-              <img src="/returns.png" alt="returns" />
+              <img src="/AGOI/returns.png" alt="returns" />
               <p>Harvest Returns</p>
             </div>
           </div>}
@@ -114,9 +114,9 @@ let Login = () => {
                 }}
                   defaultCountry={"in"}
                   countryCodeEditable={false} className="inp1" id="number" type="number" placeholder={window.innerWidth > 800 ? "Phone Number" : "Enter your phone number"} />
-                {window.innerWidth > 800 && <img className="user" src="/fa_user.svg" alt="user" />}
-                {window.innerWidth <= 800 && <img className="user" src="/material-symbols_call.svg" />}
-                {window.innerWidth > 800 && <img className="right" src="/right.svg" alt="righticon" />}
+                {window.innerWidth > 800 && <img className="user" src="/AGOI/fa_user.svg" alt="user" />}
+                {window.innerWidth <= 800 && <img className="user" src="/AGOI/material-symbols_call.svg" />}
+                {window.innerWidth > 800 && <img className="right" src="/AGOI/right.svg" alt="righticon" />}
               </div>
               {window.innerWidth > 800 && <span>
                 Have a referral code

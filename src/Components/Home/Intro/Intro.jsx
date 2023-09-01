@@ -70,17 +70,17 @@ let Intro = () => {
           </div>
           <div className="container2-cards">
             <div className="container2-card">
-              <img src="/transaction 1.png" />
+              <img src="/AGOI/transaction 1.png" />
               <h1>Secure Transactions</h1>
               <p> Ensure the safety of your financial data with secure online transactions and encryption protocols.</p>
             </div>
             <div className="container2-card">
-              <img src="/financial-guide 1.png" />
+              <img src="/AGOI/financial-guide 1.png" />
               <h1>Expert Financial Guidance</h1>
               <p>Access expert advice and insights from seasoned financial professionals to help you make informed decisions.</p>
             </div>
             <div className="container2-card">
-              <img src="/investment 1.png" />
+              <img src="/AGOI/investment 1.png" />
               <h1>Investment Opportunities</h1>
               <p>Explore a range of investment options designed to grow your wealth over time and achieve your financial milestones.</p>
             </div>
@@ -92,7 +92,7 @@ let Intro = () => {
           <div className="companyCards">
 
             <div className="company-card">
-              <img src="/Hero_FinCorp_Logo_New_Final_2013_Vertical_Wiki-removebg-preview 1.png" />
+              <img src="/AGOI/Hero_FinCorp_Logo_New_Final_2013_Vertical_Wiki-removebg-preview 1.png" />
               <h1>
                 Hero Fincorp Limited
               </h1>
@@ -100,21 +100,21 @@ let Intro = () => {
               <h2>Consumer Banking Service</h2>
             </div>
             <div className="company-card">
-              <img src="/download__1_-removebg-preview 1.png" />
+              <img src="/AGOI/download__1_-removebg-preview 1.png" />
               <h1>Studds
               </h1>
               <p>Sector</p>
               <h2>Consumer Discretioner</h2>
             </div>
             <div className="company-card">
-              <img src="/pharmeasy-logo 1.png" />
+              <img src="/AGOI/pharmeasy-logo 1.png" />
               <h1>CIAL
               </h1>
               <p>Sector</p>
               <h2>Consumer Banking Service</h2>
             </div>
             <div className="company-card">
-              <img src="/cial-logo_1_-removebg-preview 1.png" />
+              <img src="/AGOI/cial-logo_1_-removebg-preview 1.png" />
               <h1>PharmEasy
               </h1>
               <p>Sector</p>
@@ -132,7 +132,7 @@ let Intro = () => {
             <div className="howWeWorkSectionCard">
               <div className="cardImage">
 
-                <img src="/enter 2.png" />
+                <img src="/AGOI/enter 2.png" />
               </div>
               <h1>Signup</h1>
               <p>Sign up with confidence. We prioritize your financial security, using advanced encryption to safeguard your personal information. Your trust is our commitment.</p>
@@ -140,7 +140,7 @@ let Intro = () => {
             <div className="howWeWorkSectionCard">
               <div className="cardImage">
 
-                <img src="/verified-user 1.png" />
+                <img src="/AGOI/verified-user 1.png" />
               </div>
               <h1>Complete KYC</h1>
               <p>Complete your Know Your Customer (KYC) process to ensure a secure and compliant experience. Your cooperation helps us provide you with the best service while maintaining the highest standards of safety.</p>
@@ -148,7 +148,7 @@ let Intro = () => {
             <div className="howWeWorkSectionCard">
               <div className="cardImage">
 
-                <img src="/save-money 1.png" />
+                <img src="/AGOI/save-money 1.png" />
               </div>
               <h1>Invest</h1>
               <p>Explore investment opportunities tailored to your goals. Whether you're looking for short-term gains or long-term growth, we have options that suit your needs. Start investing with us to build your financial future.</p>
@@ -156,7 +156,7 @@ let Intro = () => {
             <div className="howWeWorkSectionCard">
               <div className="cardImage">
 
-                <img src="/money-exchange 1.png" />
+                <img src="/AGOI/money-exchange 1.png" />
               </div>
               <h1>Harvest Returns</h1>
               <p>Experience harvesting of Returns on your investments with our carefully curated options. Maximize your potential for long term gains while ensuring a secure and reliable investment environment</p>
@@ -170,7 +170,7 @@ let Intro = () => {
             <h1>Embark on your investment <br /> journey with just ₹10,000</h1>
             <button>Authorized Entry</button>
           </div>
-          <img src="/Investment data-rafiki (1) 1.png" />
+          <img src="/AGOI/Investment data-rafiki (1) 1.png" />
         </div>
 
 
@@ -178,21 +178,21 @@ let Intro = () => {
           <h1>We're the buzz in town</h1>
           <div className="buzzintownCards">
             <div className="buzzintownCard">
-              <img src="/Rectangle_48-removebg-preview 1.png" />
+              <img src="/AGOI/Rectangle_48-removebg-preview 1.png" />
               <div className="buzz-text">
                 <h1>Michael Thompson</h1>
                 <p>Boost your investment skills with guidance from our expert mentors</p>
               </div>
             </div>
             <div className="buzzintownCard">
-              <img src="/Rectangle_47-removebg-preview 1.png" />
+              <img src="/AGOI/Rectangle_47-removebg-preview 1.png" />
               <div className="buzz-text">
                 <h1>Sarah Johnson</h1>
                 <p>Explore the world of investing alongside skilled experts who will illuminate your path</p>
               </div>
             </div>
             <div className="buzzintownCard">
-              <img src="/Rectangle_46-removebg-preview 1.png" />
+              <img src="/AGOI/Rectangle_46-removebg-preview 1.png" />
               <div className="buzz-text">
                 <h1>David Martinez</h1>
                 <p>Unlock the secrets of successful investing with guidance from experienced mentors</p>
@@ -209,9 +209,9 @@ let Intro = () => {
             <p>Keep in contact with us using these communication channels.</p>
           </div>
           <div className="social">
-            <img src="/twitter.svg" />
-            <img src="/fb.svg" />
-            <img src="/insta.svg" />
+            <img src="/AGOI/twitter.svg" />
+            <img src="/AGOI/fb.svg" />
+            <img src="/AGOI/insta.svg" />
           </div>
         </div>
 

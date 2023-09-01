@@ -212,7 +212,7 @@ let Nav = () => {
           onClick={() => setOpen(!open)} /> */}
         <div className="logo">
           <p>
-            <Link to={"/"}><img src="/logo.png" href="logo"
+            <Link to={"/"}><img src="/AGOI/logo.png" href="logo"
             /></Link>
             {/* {state.usernotifications.user_id} */}
             {/* &#8377; {state.wallet_balance} */}
@@ -359,11 +359,11 @@ let Nav = () => {
           )} */}
 
 
-          {!state || !state.multiFactor || !state.multiFactor.user &&
+          {!state &&
             (
               <>
                 <a href="/" style={path === '/' ? { color: '#396DFB' } : { color: 'black' }}>Home</a>
-                <a href="/contact" style={path === '/contact' ? { color: '#396DFB' } : { color: 'black' }}>Contact</a>
+                <a href="/#contact" style={path === '/contact' ? { color: '#396DFB' } : { color: 'black' }}>Contact</a>
                 <div className="loginbuttons">
 
                   <button onClick={() => navigate("/login")}>Login</button>
@@ -374,18 +374,18 @@ let Nav = () => {
           {state && (
             <>
               <a href="/" style={path === '/' ? { color: '#396DFB' } : { color: 'black' }}>Home</a>
-              <a href="/contact" style={path === '/contact' ? { color: '#396DFB' } : { color: 'black' }}>Contact</a>
-              <a href="/stocks" style={path === '/stocks' ? { color: '#396DFB' } : { color: 'black' }}>Discover</a>
-              <a href="/investment" style={path === '/investment' ? { color: '#396DFB' } : { color: 'black' }}>Investment</a>
-              <a href="/wallet" style={path === '/wallet' ? { color: '#396DFB' } : { color: 'black' }}>Wallet</a>
-              <a href="/complete-profile" style={path === '/complete-profile' ? { color: '#396DFB' } : { color: 'black' }}>Complete Profile</a>
-              <a href="/complete-kyc" style={path === '/complete-kyc' ? { color: '#396DFB' } : { color: 'black' }}>Complete KYC</a>
+              <a href="/#contact" style={path === '/contact' ? { color: '#396DFB' } : { color: 'black' }}>Contact</a>
+              <a href="/#stocks" style={path === '/stocks' ? { color: '#396DFB' } : { color: 'black' }}>Discover</a>
+              <a href="/#investment" style={path === '/investment' ? { color: '#396DFB' } : { color: 'black' }}>Investment</a>
+              <a href="/#wallet" style={path === '/wallet' ? { color: '#396DFB' } : { color: 'black' }}>Wallet</a>
+              <a href="/#complete-profile" style={path === '/complete-profile' ? { color: '#396DFB' } : { color: 'black' }}>Complete Profile</a>
+              <a href="/#complete-kyc" style={path === '/complete-kyc' ? { color: '#396DFB' } : { color: 'black' }}>Complete KYC</a>
               <div className="loginbuttons">
 
-                <button className="nav2button" onClick={function () { navigate('/wallet') }}><img src="/wallet.svg" /></button>
-                <button className="nav2button"><img src="/notification.svg" /></button>
-                <button className="nav2button"><img src="/usericon.svg" /></button>
-                <button className="nav2button" onClick={signoutHandler}><img src="/exit.svg" /></button>
+                <button className="nav2button" onClick={function () { navigate('/wallet') }}><img src="/AGOI/wallet.svg" /></button>
+                <button className="nav2button"><img src="/AGOI/notification.svg" /></button>
+                <button className="nav2button"><img src="/AGOI/usericon.svg" /></button>
+                <button className="nav2button" onClick={signoutHandler}><img src="/AGOI/exit.svg" /></button>
               </div>
             </>
           )}

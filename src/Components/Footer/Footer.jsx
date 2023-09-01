@@ -4,11 +4,11 @@ export default function Footer() {
     return (<div className="footer">
         <div className="footerTop">
             <div className="footerLogo">
-                <img src="/Agoi white 1.png" alt="Agoi" />
+                <img src="/AGOI/Agoi white 1.png" alt="Agoi" />
                 <div className="social">
-                    <img src="/twitter.svg" />
-                    <img src="/fb.svg" />
-                    <img src="/insta.svg" />
+                    <img src="/AGOI/twitter.svg" />
+                    <img src="/AGOI/fb.svg" />
+                    <img src="/AGOI/insta.svg" />
                 </div>
             </div>
             <div className="footerLinks">
@@ -29,9 +29,9 @@ export default function Footer() {
             </div>
         </div>
         <div className="social social800">
-                    <img src="/twitter.svg" />
-                    <img src="/fb.svg" />
-                    <img src="/insta.svg" />
+                    <img src="/AGOI/twitter.svg" />
+                    <img src="/AGOI/fb.svg" />
+                    <img src="/AGOI/insta.svg" />
                 </div>
         <div className="copyright">
             All trademarks and logos or registered trademarks and logos found on this Site or mentioned herein belong to their respective owners and are solely used for informational and educational purposes.
@@ -51,7 +51,7 @@ export default function Footer() {
             </span>
         </div>
         {window.innerWidth<=800 && <div className='logo800'>
-            <img src="/Agoi white 1.png" alt="Agoi" />
+            <img src="/AGOI/Agoi white 1.png" alt="Agoi" />
         </div>}
         <div className='copytext'>
             <span>Copyright © 2023-Precia-All Rights Reserved</span>

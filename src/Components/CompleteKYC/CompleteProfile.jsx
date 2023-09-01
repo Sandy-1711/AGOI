@@ -110,7 +110,6 @@ let CompleteProfile = () => {
     // ) :
     <>
 
-      {window.innerWidth > 800 && <Nav />}
       <div className="complete-profile-container">
 
         <div className="complete-profile-modal">
@@ -241,7 +240,6 @@ let CompleteProfile = () => {
           </div>
         </div>
       </div>
-      {window.innerWidth <= 800 && <NavMobile />}
     </>
 
   );

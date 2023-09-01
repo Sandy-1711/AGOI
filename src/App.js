@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
 import "./styles/App.css";
@@ -55,7 +55,7 @@ let App = () => {
   }, []);
   return (
     <>
-      <Router>
+      <HashRouter>
         <ToastProvider>
           <Nav />
           <Routes>
@@ -86,7 +86,7 @@ let App = () => {
           </Routes>
           <NavMobile />
         </ToastProvider>
-      </Router>
+      </HashRouter>
     </>
   );
 };

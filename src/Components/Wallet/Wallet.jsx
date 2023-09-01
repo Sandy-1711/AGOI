@@ -22,7 +22,7 @@ let Wallet = () => {
     }
   };
   useEffect(() => {
-    if (state) fetchReferrals();
+    // if (state) fetchReferrals();
   }, [state]);
   return (
     <>
