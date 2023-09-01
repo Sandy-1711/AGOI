@@ -9,10 +9,10 @@ export default function NavMobile() {
             {/* <img src='/wallet.svg' /> */}
 
             <i onClick={function () {
-                navigate('/AGOI/');
+                navigate('/');
             }} class="fa-solid fa-house"></i>
             <i onClick={function () {
-                navigate('/AGOI/#contact');
+                navigate('/#contact');
             }} class="fa-solid fa-phone-volume"></i>
             {/* <i onClick={async function(){
                 await auth.signOut();
