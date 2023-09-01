@@ -212,7 +212,7 @@ let Nav = () => {
           onClick={() => setOpen(!open)} /> */}
         <div className="logo">
           <p>
-            <Link to={"/AGOI/"}><img src="/AGOI/logo.png" href="logo"
+            <Link to={"/"}><img src="/AGOI/logo.png" href="logo"
             /></Link>
             {/* {state.usernotifications.user_id} */}
             {/* &#8377; {state.wallet_balance} */}
