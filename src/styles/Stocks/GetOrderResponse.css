@@ -1,0 +1,31 @@
+.order-res-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-res-container, .img-res-container img{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+}
+
+.redir-to-stocks{
+    margin-top: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 12px;
+    background: white;
+    user-select: none;
+    cursor: pointer;
+}

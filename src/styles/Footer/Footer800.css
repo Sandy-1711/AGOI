@@ -1,0 +1,60 @@
+@media screen and (width<800px) {
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 100px;
+        margin-top: 20px;
+
+
+
+    }
+
+    .footerTop {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+    }
+    .footerLinks{
+        gap: 60px;
+    }
+    .footerLinks ul{
+        gap: 10px;
+    }
+    .footerLogo {
+        display: none;
+    }
+
+    .copyright {
+        padding: 15px;
+    }
+
+    .copyright span {
+        display: none;
+    }
+    .social800{
+        display: flex;
+    }
+
+    .copytext {
+        display: block;
+        color: white;
+        margin-top: 25px;
+    }
+
+    .copytext span {
+        font-family: Poppins;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        display: block;
+        text-align: center;
+    }
+
+    .logo800 {
+        margin: auto;
+    }
+}

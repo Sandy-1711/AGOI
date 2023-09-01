@@ -1,0 +1,135 @@
+.contactSection {
+    height: 93dvh;
+    /* padding: 5rem 0; */
+    width: 100%;
+
+
+}
+
+.contactSection>h1 {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3e3e3e;
+    margin-bottom: 24px;
+}
+
+.contactSection p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 0 10px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #777777;
+}
+
+.contactOuterDiv {
+    width: max-content;
+
+    border-radius: 10px;
+    height: max-content;
+    padding: 100px 50px;
+    margin: auto;
+    margin-top: 76px;
+    background-color: #EDF2FF;
+}
+
+
+
+.contactInnerDiv {
+    width: 300px;
+    margin: auto;
+}
+
+.contactInnerDiv h1 {
+
+    margin-bottom: 60px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #696969;
+}
+
+.contactInnerInnerDiv {
+    width: 300px;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contactInnerInnerDiv p {
+
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.contactInnerInnerDiv p i {
+    font-size: 1.5rem;
+}
+
+@media screen and (width<800px) {
+    .contactOuterDiv {
+        width: 90vw;
+        padding: 60px 40px;
+    }
+
+    .contactInnerDiv {
+        width: 95%;
+        margin: auto !important;
+    }
+    .contactOuterDiv{
+        margin-top: 40px;
+    }
+    .contactInnerInnerDiv {
+        width: 100%;
+    }
+
+    .contactSection{
+        padding: 0;
+    }
+    .contactSection>h1 {
+        margin-top: 60px !important;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .contactInnerDiv h1 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 17px;
+
+    }
+    .contactInnerInnerDiv{
+        gap: 10px;
+    }
+    .contactSection p{
+        margin: 0;
+    }
+}

@@ -1,0 +1,15 @@
+@media screen and (width<=800px) {
+    /* .kyccontainer h1 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    } */
+    .kyccontainer{
+        padding: 30px 0 100px 0;
+        /* margin-top: 40px !important; */
+        /* margin-bottom: 10px; */
+    }
+}

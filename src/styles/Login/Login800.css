@@ -1,0 +1,117 @@
+@media screen and (width<=800px) {
+    .loginContainer {
+        background: none;
+        height: 100dvh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loginContainer h1 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: black;
+
+
+    }
+
+    .loginContainer p {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #3E3E3E;
+        width: 90%;
+    }
+
+    .loginright {
+        width: 100%;
+    }
+
+    
+
+    .loginright form div {
+        width: 100%;
+    }
+
+    .loginright label {
+        margin-bottom: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .loginright form .inp1 {
+        min-width: 100%;
+        background-color: #EBEBEB;
+        padding: 8px 0px 8px 50px;
+        text-align: left;
+        border-radius: 90px;
+        color: black;
+        font-size: 18px;
+
+    }
+
+    .inp2 {
+        min-width: 100%;
+        background-color: #EBEBEB;
+        padding: 8px 0px 8px 50px;
+        text-align: left;
+        border-radius: 90px;
+        color: black;
+        font-size: 18px;
+
+    }
+
+
+    .inp1::placeholder,
+    .inp2::placeholder {
+        color: #858585;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .loginright form {
+        min-width: 100%;
+    }
+
+    .loginContainerBottom {
+        padding: 0;
+        min-width: 90%;
+    }
+
+    .loginright form button {
+        padding: 15px 60px;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 7px;
+        background-color: #396DFB;
+        color: white;
+        font-family: #F6F6F6;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 50px;
+
+    }
+}

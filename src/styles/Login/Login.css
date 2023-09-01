@@ -1,0 +1,185 @@
+.loginContainer {
+    width: 100vw;
+    height: max-content;
+    padding: 2.5rem 0;
+    background: url('/public/jjh.png');
+    display: flex;
+    /* background-color: rgb(68, 67, 67); */
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loginContainerBottom {
+    padding: 5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.loginContainer h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+    color: white;
+}
+
+.loginContainerTop h1 span {
+    color: #396DFB;
+}
+
+
+.loginContainer p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+.loginleft p {
+    width: fit-content;
+    text-align: left;
+}
+
+.loginleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 275px;
+}
+
+.loginleft div {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginleft div p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.loginmiddle {
+    height: 400px;
+    width: 2px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.loginright form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 275px;
+
+    gap: 0.5rem;
+}
+
+.loginright form .inp1 {
+    border: none;
+    padding: 15px 10px 15px 20px;
+    color: white;
+    border-radius: 90px;
+    background-color: #FFFFFF33;
+    width: 275px;
+    outline: none;
+
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+
+
+}
+
+.inp1::placeholder {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.inp2::placeholder {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.loginright form span {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.loginright form button {
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    border-radius: 90px;
+    background-color: #396DFB;
+    color: white;
+}
+
+.loginright form div {
+    position: relative;
+}
+
+.loginright form .user {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.loginright form .inp1 {
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.inp2 {
+    border: none;
+    color: white;
+    border-radius: 90px;
+    background-color: #FFFFFF33;
+    width: 275px;
+    outline: none;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

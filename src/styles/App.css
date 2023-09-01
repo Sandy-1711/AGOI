@@ -1,0 +1,34 @@
+
+
+
+:root{
+    --home-heading-font-family : 'Nanum Gothic', sans-serif;
+    --white-font : white;
+    --ani-delay : 0s;
+    --color-dark-grey : #63646F;
+    --color-light-grey : hsl(234, 5%, 60%);
+    --defused-black : radial-gradient(ellipse at bottom,rgba(23,31,42,255) 30%,  #202933 80%);
+    --defused-green : #8ECB7E;
+    --orange-font :rgb(225,131,119);
+    --nav-blue-color : rgba(67, 138, 240,1);
+    --blue-color : rgb(150, 180, 229);
+    --green-color : #3e5b37;
+    --lin-grad-one : linear-gradient(102.64deg,#3e1c8d,#407bff 50.08%,#7b61ff 99.13%);
+    --lin-grad-two : linear-gradient(102.64deg,#1a0b3c,rgb(36, 38, 63) 50.08%,#3a306b 99.13%);
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--home-heading-font-family);
+}
+body{
+    color: black;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: white;
+    position: relative;
+}

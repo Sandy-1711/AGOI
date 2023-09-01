@@ -1,0 +1,58 @@
+.av-stock{
+    margin-top: 19px;
+    color: white;
+}
+/* input[type="number"]{
+    width: 80%;
+    height: 50px;
+    background: var(--defused-black);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 13px;
+    padding:8px;
+    color-scheme: dark;
+} */
+
+
+.sell-card-modal input{
+    width: 100%;
+}
+
+.sell-card-modal{
+    position: relative;
+    height: 360px;
+    width: 50%;
+    top: calc(50% + 30px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    padding:0 6rem;
+    justify-content: center;
+    border-radius: 22px;
+    background: var(--defused-black);
+}
+
+
+.sell-card-modals{
+    position: relative;
+    height: 260px;
+    width: 35%;
+    top: calc(50% + 30px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin-bottom: 82px;
+    flex-direction: column;
+    padding:0 6rem;
+    justify-content: center;
+    border-radius: 22px;
+    background: var(--defused-black);
+}
+
+
+.sell-card-modal input:focus{
+    outline: none;
+    border: none;
+}

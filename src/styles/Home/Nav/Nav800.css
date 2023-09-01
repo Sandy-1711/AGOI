@@ -1,0 +1,61 @@
+
+@media screen and (width<800px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: white;
+        height: 100svh;
+        width: 50svw;
+        box-shadow: 0px 0px 5px black;
+        transition: 500ms ease-in-out;
+        flex-direction: column;
+        justify-content: flex-start;
+        transform: translateX(100vw);
+        z-index: 900;
+        padding: 0 0 !important;
+    }
+
+    .left {
+        transform: translateX(0);
+    }
+
+    .usericon {
+        display: block;
+    }
+
+    .logo img {
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .login {
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .login a {
+        text-align: left;
+        width: 50svw;
+        padding-left: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1.2rem;
+        height: 4vh;
+        background-color: #e8e8e8;
+    }
+    .loginbuttons{
+        margin-top: 10px;
+        width: 50svw;
+        height: 4vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 0;
+    }
+
+    /* .logo{
+        display:none;
+    } */
+}

@@ -1,0 +1,65 @@
+@media screen and (width<=800px) {
+
+    .complete-profile-container {
+
+        padding: 30px 0  0 0 !important;
+        height: 100dvh;
+
+    }
+
+    .complete-profile-modal h1 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .complete-profile-modal {
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+    }
+
+    .row {
+        width: 90%;
+        margin-top: 10px !important;
+    }
+
+    .row {
+        align-items: center;
+        flex-direction: row-reverse !important;
+
+    }
+
+    .lform,
+    .rform {
+        margin: auto;
+        max-width: 90%;
+    }
+
+    .complete-kyc-btn {
+        max-width: 90%;
+        margin: 10px auto  !important;
+    }
+
+    .complete-kyc-btn button {
+        max-width: 100%;
+
+    }
+
+    label{
+        margin-left: 1px !important;
+        margin-bottom: 0;
+    }
+    label span{
+        
+        padding: 2px !important;
+    }
+}

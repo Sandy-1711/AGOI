@@ -1,0 +1,166 @@
+.stock-des-main{
+    height: 400px;
+    width: 100%;
+    background: var(--defused-black);
+    padding: 0 6rem;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    border-top: 1px solid var(--color-dark-grey);
+    border-bottom: 1px solid var(--color-dark-grey);
+}
+
+.stock-main-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing{
+    padding: 12px;
+    border-left: 1px solid var(--color-dark-grey);
+    border-right:1px solid var(--color-dark-grey);
+}
+
+.stock-des-heading{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.stock-description{
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    color: var(--color-light-grey);
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.company-glace-btn,.complete-profile-btn{
+    cursor: pointer;
+    user-select: none;
+    margin-top: 20px;
+    height: 45px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 7px;
+    color: var(--white-font);
+    border:1px solid var(--white-font);
+}
+
+.complete-profile-btn{
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    background: var(--white-font);
+    color: black;
+    font-weight: bolder;
+}
+
+.stock-des-heading-img img{
+    height: 100px;
+    width: 100px;
+    margin-right: 15px;
+}
+
+.stock-heading-content{
+    flex: 1;
+    height: 100px;
+}
+
+.heading-title-container{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 2.0em;
+    line-height: 2.0em;
+}
+
+.stock-heading-content h3{
+    color: white;
+    margin: 0;
+    margin-right:10px;
+    padding:0;
+    
+}
+
+.stock-heading-status{
+    height: 50px;
+    width: 150px;
+    background: var(--defused-green);
+    color: var(--green-color);
+    border-top-left-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 13px;
+}
+
+.stock-heading-subtitle{
+    margin-top: 10px;
+    display: flex;
+    margin-right: 15px;
+    color: var(--color-light-grey);
+    font-weight: bolder;
+    justify-content: space-between;
+}
+
+.available-on,.price-per-share,.face-value{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.stock-description p{
+    margin: 0;
+}
+
+
+p.face-main, p.price-main{
+    margin-top: 10px;
+}
+
+.avail-main{
+    height: 60px;
+    width: 150px;
+}
+
+.avail-main img{
+    height: 50%;
+
+}
+
+.pricing-heading p{
+    color: var(--white-font);
+}
+
+.pricing-heading{
+    color: var(--color-dark-grey);
+}
+
+.pricing-actions span{
+    color: var(--white-font);
+}
+
+.inc, .dec{
+    height: 23px;
+    width: 23px;
+    margin: 4px;
+    border-radius: 3px;
+    color: var(--white-font);
+    border: 1px solid var(--color-dark-grey);
+}
+
+.stock-main-footer{
+    flex: 1;
+    padding:30px 6rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--color-light-grey);
+}
