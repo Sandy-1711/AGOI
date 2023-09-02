@@ -368,11 +368,12 @@ let NavLater = () => {
 
           ) : (
             <>
-              <a href="/" style={path === '/' ? { color: '#396DFB' } : { color: 'black' }}>Home</a>
+              {window.innerWidth > 800 && (<>
+                <a href="/" style={path === '/' ? { color: '#396DFB' } : { color: 'black' }}>Home</a>
               <a href="/AGOI/#contact" style={path === '/contact' ? { color: '#396DFB' } : { color: 'black' }}>Contact</a>
               <a href="/AGOI/#stocks" style={path === '/stocks' ? { color: '#396DFB' } : { color: 'black' }}>Discover</a>
               <a href="/AGOI/#investment" style={path === '/investment' ? { color: '#396DFB' } : { color: 'black' }}>Investment</a>
-
+              </>)}
               <div className="loginbuttons">
 
                 <button className="nav2button" onClick={function () { navigate('/wallet') }}><img src="/AGOI/wallet.svg" /></button>
