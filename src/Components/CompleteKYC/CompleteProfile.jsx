@@ -9,7 +9,6 @@ import {
   Select,
 } from "@mui/material";
 import axios from "axios";
-import '../../styles/Stocks/CompleteProfile800.css'
 import { useEffect, useState } from "react";
 import { Navigate, useNavigate } from "react-router";
 import { useToasts } from "react-toast-notifications";
@@ -18,6 +17,7 @@ import { auth } from "../../firebase/firebase";
 import "../../styles/Stocks/CompleteProfileDialog.css";
 import Nav from "../Home/Nav/Nav";
 import NavMobile from "../Home/Nav/NavMobile";
+import '../../styles/Stocks/CompleteProfile800.css'
 
 let CompleteProfile = () => {
   // let [user, setUser] = useState();

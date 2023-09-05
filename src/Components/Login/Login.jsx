@@ -72,7 +72,7 @@ let Login = () => {
     <>
       {/* {window.innerWidth > 800 && <Nav />} */}
       <div className="loginContainer">
-
+        <img className="loginBack" src="/AGOI/jjh.png" alt="loginback" />
         <div id="sign-in-button"></div>
         {window.innerWidth <= 800 && <div>
           <img src="/AGOI/login-drawable.svg" />
@@ -105,31 +105,46 @@ let Login = () => {
 
           </div>}
           <div className="loginright">
-            <form>
+            <form onSubmit={requestOtp}>
               <label>Phone Number</label>
               <div>
-                <input onChange={(e) => {
-                  console.log(e.target.value);
-                  setPhoneNum(e.target.value);
-                }}
+                <input
+                  required
+                  minLength={10}
+                  maxLength={10}
+                  onChange={(e) => {
+                    console.log(e.target.value);
+                    setPhoneNum(e.target.value);
+                  }}
                   defaultCountry={"in"}
-                  countryCodeEditable={false} className="inp1" id="number" type="number" placeholder={window.innerWidth > 800 ? "Phone Number" : "Enter your phone number"} />
+                  countryCodeEditable={false}
+                  className="inp1"
+                  id="number"
+                  type="tel"
+                  placeholder={window.innerWidth > 800 ? "Phone Number" : "Enter your phone number"} />
                 {window.innerWidth > 800 && <img className="user" src="/AGOI/fa_user.svg" alt="user" />}
                 {window.innerWidth <= 800 && <img className="user" src="/AGOI/material-symbols_call.svg" />}
                 {window.innerWidth > 800 && <img className="right" src="/AGOI/right.svg" alt="righticon" />}
               </div>
-              {window.innerWidth > 800 && <span>
+              {/* {window.innerWidth < 800 && <span>
                 Have a referral code
-              </span>}
+              </span>} */}
               <label>Have a referral code</label>
 
-              <input onChange={(e) => {
-                console.log(referral.length);
-                if (e.currentTarget.value.length <= 6) {
-                  setReferral(e.currentTarget.value);
-                }
-              }} className="inp2" placeholder="Enter 6 digit Referral code" />
-              <button onClick={requestOtp}>PROCEED</button>
+              <input
+                minLength={6}
+                maxLength={6}
+                onChange={(e) => {
+
+                  console.log(referral.length);
+                  if (e.currentTarget.value.length <= 6) {
+                    setReferral(e.currentTarget.value);
+                  }
+                }}
+                className="inp2"
+                placeholder="Enter 6 digit Referral code"
+                type="tel" />
+              <button >PROCEED</button>
             </form>
           </div>
         </div>

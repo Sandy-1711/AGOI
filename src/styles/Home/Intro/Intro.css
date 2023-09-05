@@ -3,6 +3,7 @@
     width: 100vw;
     overflow-x: hidden;
     background-color: white;
+    padding-top: 9vh;
 }
 
 .con1 {
@@ -10,7 +11,7 @@
     /* height: 85vh; */
     height: max-content;
     padding: 10rem 0;
-    background: url('/public/heroimage.png');
+
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -19,11 +20,25 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 35px;
+    position: relative;
 
+}
+
+
+.con1 img {
+    filter: brightness(0.9);
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .bottom-left {
     width: 50%;
+    position: relative;
+    z-index: 1;
 }
 
 .bottom-left .topText {
@@ -52,6 +67,8 @@
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
+    position: relative;
+    z-index: 1;
 }
 
 .heading-btns button {
@@ -252,8 +269,9 @@
     align-items: center;
     border: 1px solid #BDBFE3;
 }
-.cardImage img{
-    height:80px;
+
+.cardImage img {
+    height: 80px;
 }
 
 .investmentSection {

@@ -17,6 +17,7 @@ import moment from "moment";
 
 import '../../../styles/Home/Nav/Navlater.css'
 import '../../../styles/Home/Nav/Nav800.css'
+import { doc } from "firebase/firestore";
 
 
 
@@ -176,6 +177,7 @@ let Nav = () => {
 
 
   useEffect(() => {
+
     // fetchuser();
     // fetchstatus();
     console.log(state);
@@ -378,8 +380,8 @@ let Nav = () => {
               <a href="/AGOI/#stocks" style={path === '/stocks' ? { color: '#396DFB' } : { color: 'black' }}>Discover</a>
               <a href="/AGOI/#investment" style={path === '/investment' ? { color: '#396DFB' } : { color: 'black' }}>Investment</a>
               <a href="/AGOI/#wallet" style={path === '/wallet' ? { color: '#396DFB' } : { color: 'black' }}>Wallet</a>
-              <a href="/AGOI/#complete-profile" style={path === '/complete-profile' ? { color: '#396DFB' } : { color: 'black' }}>Complete Profile</a>
-              <a href="/AGOI/#complete-kyc" style={path === '/complete-kyc' ? { color: '#396DFB' } : { color: 'black' }}>Complete KYC</a>
+              {window.innerWidth > 1200 && <a href="/AGOI/#complete-profile" style={path === '/complete-profile' ? { color: '#396DFB' } : { color: 'black' }}>Complete Profile</a>}
+              {window.innerWidth > 1200 && <a href="/AGOI/#complete-kyc" style={path === '/complete-kyc' ? { color: '#396DFB' } : { color: 'black' }}>Complete KYC</a>}
               <div className="loginbuttons">
 
                 <button className="nav2button" onClick={function () { navigate('/wallet') }}><img src="/AGOI/wallet.svg" /></button>

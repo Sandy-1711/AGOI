@@ -36,10 +36,10 @@ let Intro = () => {
 
       <div className="landing-page">
         <div className="con1">
-          {/* <img
-            className="im"
-            src="/heroimage.png"
-          /> */}
+
+          <img src="/AGOI/heroimage.png" alt="herobackground" />
+
+
           <div className="bottom-left">
             <div>
               <p className="topText">

@@ -9,7 +9,9 @@
     } */
     .kyccontainer{
         padding: 30px 0 100px 0;
+        height: max-content;
         /* margin-top: 40px !important; */
         /* margin-bottom: 10px; */
     }
+    
 }

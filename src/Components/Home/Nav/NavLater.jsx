@@ -374,7 +374,7 @@ let NavLater = () => {
               <a href="/AGOI/#stocks" style={path === '/stocks' ? { color: '#396DFB' } : { color: 'black' }}>Discover</a>
               <a href="/AGOI/#investment" style={path === '/investment' ? { color: '#396DFB' } : { color: 'black' }}>Investment</a>
               </>)}
-              <div className="loginbuttons">
+              <div className="loginbuttons1">
 
                 <button className="nav2button" onClick={function () { navigate('/wallet') }}><img src="/AGOI/wallet.svg" /></button>
                 <button className="nav2button"><img src="/AGOI/notification.svg" /></button>

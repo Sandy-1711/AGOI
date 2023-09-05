@@ -2,8 +2,10 @@
 
     .complete-profile-container {
 
-        padding: 30px 0  0 0 !important;
-        height: 100dvh;
+        padding: 30px 0 30px 0 !important;
+        height: max-content;
+        
+
 
     }
 
@@ -18,7 +20,7 @@
 
     .complete-profile-modal {
         height: 100%;
-        width: 90%;
+        width: 100%;
         margin: auto;
         display: flex;
         justify-content: space-evenly;
@@ -46,20 +48,21 @@
 
     .complete-kyc-btn {
         max-width: 90%;
-        margin: 10px auto  !important;
+        margin: 10px auto ;
     }
 
     .complete-kyc-btn button {
         max-width: 100%;
-
+        margin-top: 0 !important;
     }
 
-    label{
+    label {
         margin-left: 1px !important;
         margin-bottom: 0;
     }
-    label span{
-        
+
+    label span {
+
         padding: 2px !important;
     }
 }

@@ -1,6 +1,6 @@
 .kyccontainer {
     width: 100vw;
-    height: max-content;
+    height: 100vh;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;

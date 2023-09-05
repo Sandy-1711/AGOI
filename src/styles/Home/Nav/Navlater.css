@@ -4,11 +4,12 @@
     left: 0;
     background-color: white;
     height: max-content;
-    width: 100svw;
+    width: 100vw;
     display: flex;
     padding: 0 7rem;
     justify-content: space-between;
     align-items: center;
+    z-index: 999;
 }
 
 .logintop {
@@ -49,15 +50,20 @@
     display: none;
 
 }
-.loginbuttons{
+.loginbuttons1{
+    margin-top: 0 !important;
     display: flex;
     gap:1.25rem;
     align-items: center;
     
 }
+
 @media screen and (width<900px) {
     .login{
         gap: 1rem;
+    }
+    .logotop img {
+        height: 60px;
     }
 }
 
@@ -74,7 +80,7 @@
     }
 
     .logotop img {
-        height: 60px;
+        height: 50px;
     }
 
     
