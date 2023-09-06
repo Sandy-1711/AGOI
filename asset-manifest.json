@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/AGOI/static/css/main.15118408.css",
-    "main.js": "/AGOI/static/js/main.75adffa3.js",
+    "main.css": "/AGOI/static/css/main.3c98e491.css",
+    "main.js": "/AGOI/static/js/main.14a4c7d0.js",
     "static/js/498.9c9271a9.chunk.js": "/AGOI/static/js/498.9c9271a9.chunk.js",
     "static/js/703.2d3fbfa9.chunk.js": "/AGOI/static/js/703.2d3fbfa9.chunk.js",
     "static/js/513.d0b5a586.chunk.js": "/AGOI/static/js/513.d0b5a586.chunk.js",
     "index.html": "/AGOI/index.html",
-    "main.15118408.css.map": "/AGOI/static/css/main.15118408.css.map",
-    "main.75adffa3.js.map": "/AGOI/static/js/main.75adffa3.js.map",
+    "main.3c98e491.css.map": "/AGOI/static/css/main.3c98e491.css.map",
+    "main.14a4c7d0.js.map": "/AGOI/static/js/main.14a4c7d0.js.map",
     "498.9c9271a9.chunk.js.map": "/AGOI/static/js/498.9c9271a9.chunk.js.map",
     "703.2d3fbfa9.chunk.js.map": "/AGOI/static/js/703.2d3fbfa9.chunk.js.map",
     "513.d0b5a586.chunk.js.map": "/AGOI/static/js/513.d0b5a586.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15118408.css",
-    "static/js/main.75adffa3.js"
+    "static/css/main.3c98e491.css",
+    "static/js/main.14a4c7d0.js"
   ]
 }
