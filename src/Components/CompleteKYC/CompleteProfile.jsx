@@ -20,6 +20,7 @@ import NavMobile from "../Home/Nav/NavMobile";
 import '../../styles/Stocks/CompleteProfile800.css'
 
 let CompleteProfile = () => {
+  const navigate=useNavigate();
   // let [user, setUser] = useState();
   // console.log(auth.currentUser);
   // let [name, setName] = useState("");
@@ -232,7 +233,7 @@ let CompleteProfile = () => {
           <div
             onClick={async () => {
               // await addComleteProfile();
-              // navigate("/complete-kyc");
+              navigate("/complete-kyc");
             }}
             className="complete-kyc-btn"
           >

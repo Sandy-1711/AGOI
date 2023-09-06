@@ -307,7 +307,7 @@ let CompleteKYC = () => {
           <div
             onClick={async () => {
               // await addKYCdetails();
-              navigate("/AGOI/");
+              navigate("/");
             }}
             className="complete-kyc-btn"
           >

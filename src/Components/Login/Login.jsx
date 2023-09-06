@@ -15,6 +15,7 @@ let Login = () => {
   const [referral, setReferral] = useState("");
   const navigate = useNavigate();
   const loc = useLocation();
+  const [loading, setLoading] = useState(false);
   let state = useSelector((state) => state);
   console.log(state);
   console.log(loc);
@@ -39,6 +40,7 @@ let Login = () => {
 
   const requestOtp = (e) => {
     e.preventDefault();
+    setLoading(true);
     if (phoneNum != null && phoneNum.length != 0) {
       generateRecaptcha();
       let appVarifier = window.recaptchaVerifier;
@@ -48,6 +50,7 @@ let Login = () => {
         .then((result) => {
           console.log(result);
           window.confirmationResult = result;
+          setLoading(false);
           navigate(`/auth/verifyOtp`, {
             state: {
               contactNum: phoneNum,
@@ -144,7 +147,8 @@ let Login = () => {
                 className="inp2"
                 placeholder="Enter 6 digit Referral code"
                 type="tel" />
-              <button >PROCEED</button>
+              {/* <button className="loadingbutton"><div></div></button> */}
+              <button >{loading ? "LOADING..." : "PROCEED"}</button>
             </form>
           </div>
         </div>
